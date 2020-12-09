@@ -1,6 +1,6 @@
 # depcomm
 ## Introduction
-![Workflow of DepComm](architecture.png)
+![Workflow of DepComm](DepComm overview.png)
 Causality analysis on system auditing data has emerged as an important solution for attack investigation.
 Given a POI (Point-Of-Interest) event (e.g. an alert fired on a  suspicious file creation), causality analysis constructs a dependency graph, in which nodes represent system entities (e.g. processes and files) and edges represent dependencies among entities, to reveal the attack sequence.
 However, causality analysis often produce a huge graph.
