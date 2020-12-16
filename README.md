@@ -55,4 +55,5 @@ DepComm will output several different files in the folder ``output`` in the proj
 2. A dot file that be named as ``summary_graph.dot``. It is the summary graph, where the node denotes community and the edge denotes the data flow direction among communities.
 3. A txt file that be named as ``summary.txt``. It contains the master process, time span and prioritized InfoPaths for each community.
 4. Another txt file. It records nodes attributes for each community (pid and pidname for process node, path and filename for file node, IP and Port for network node).  
+
 Note that the dot files can be visualized by [Graphviz](https://github.com/xflr6/graphviz).
