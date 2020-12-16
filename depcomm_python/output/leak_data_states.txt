@@ -1,0 +1,17 @@
+Run time for original graph is: 67.5579020977
+Original node number: 3991
+Original edge number: 99075
+------------------------------------
+Run time for backtrack graph is: 3.7959189415
+Backtrack graph node number: 414
+Backtrack graph edge number: 76798
+------------------------------------
+Run time for merged graph of backtrack graph is: 21.7122359276
+memory space for merged graph of backtrack graph is: 9.92413330078MB
+Merged graph node number of backtrack graph: 414
+Merged graph edge number of backtrack graph: 2096
+------------------------------------
+Run time for read-write graph of merged graph is: 0.120187044144
+memory space for read-write graph of merged graph is: 1.33982086182MB
+Read-write graph node number of merged graph: 97
+Read-write graph edge number of merged graph: 240
