@@ -17,19 +17,20 @@ InfoPaths to rank the InfoPaths that are more likely to represent
 attack-related information flows at the top.
 
 ## Requirements
-Python Version：2.7
-Dependent packages:
-networkx==2.2
-numpy==1.15.1
-scipy==1.0
-pydot==1.4.1
-python-louvain==0.14
-igraph==0.7
-pydot==1.4.1
-gensim==3.8.1
-pympler==0.7
-scikit-fuzzy==0.4.2
-sklearn==0.19.1
+Python Version：2.7  
+
+Dependent packages:  
+networkx==2.2  
+numpy==1.15.1  
+scipy==1.0  
+pydot==1.4.1  
+python-louvain==0.14  
+igraph==0.7  
+pydot==1.4.1  
+gensim==3.8.1  
+pympler==0.7  
+scikit-fuzzy==0.4.2  
+sklearn==0.19.1  
 
 ## Usage
 ### Input
