@@ -35,7 +35,7 @@ Dependent packages:
 ## Usage
 ### Input
 1. Log file. The log file needs to be put in the folder input in the project home directory depcomm_python
-2. Parameters including log file name and POI. They should be written to run.py in the project home directory depcomm_python
+2. Parameters including log file name and POI. They should be written to run.py in the project home directory ``depcomm_python``
 ### Command
 After configuring the input, directly execute the following command from the project home directory:<br/>
 	``python run.py`` 
