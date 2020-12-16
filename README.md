@@ -34,7 +34,8 @@ Dependent packages:
 
 ## Usage
 ### Input
-Log file
+1. Log file. The log file need to be put in the folder input of depcomm_python
+2. Parameters including log file name and POI. They should be written 
 ### Command
 python ~/core/Start.py 
 
