@@ -43,9 +43,9 @@ After configuring the input, directly execute the following command from the pro
 ### Data
 We adopt Sysdig to collect the system logs. This link shows how to install Sysdig: https://sysdig.com/opensource/sysdig/install/.   
 We use the following command to collect logs:<br/>
-``sudo sysdig -p"%evt.num %evt.rawtime.s.%evt.rawtime.ns %evt.cpu %proc.name (%proc.pid) %evt.dir %evt.type cwd=%proc.cwd %evt.args latency=%evt.latency" evt.type!=switch > fileName.txt``
-Due to the limit of Github, we can't upload the extreme large log file.
-The folder input in the code has contained a small log for demo.
+``sudo sysdig -p"%evt.num %evt.rawtime.s.%evt.rawtime.ns %evt.cpu %proc.name (%proc.pid) %evt.dir %evt.type cwd=%proc.cwd %evt.args latency=%evt.latency" evt.type!=switch > fileName.txt``  
+Due to the limit of Github, we can't upload the collected extreme large log file.
+The folder example contains a log and parameter file that can be used for demo.
 For the DARPA Attack used in evaluation, here is the [github link](https://github.com/darpa-i2o/Transparent-Computing). 
 You can follow their instructions to download data.  
 ### Output
