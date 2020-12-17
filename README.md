@@ -41,7 +41,7 @@ Execute the following command from the project home directory ``depcomm_python``
 
 	python run.py --logpath "log-file-path" --poi "poi" 
 
-For example, to run the unzipped example log file, it first should be put into the folder ``input`` in the project home directory ``depcomm_python``, then execute the following command:
+For example, to run depcomm on the unzipped example log file, first put the unzipped example log file into the folder ``input`` in the project home directory ``depcomm_python``, then execute the following command:
 
     python run.py --logpath "./input/leak_data.txt" --poi "10.10.103.10:38772->159.226.251.11:25"
 
