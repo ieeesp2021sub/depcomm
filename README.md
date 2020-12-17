@@ -37,7 +37,7 @@ Dependent packages:
 1. Log file path.
 2. POI.
 ### Command
-Directly execute the following command from the project home directory ``depcomm_python``:<br/>
+Execute the following command from the project home directory ``depcomm_python``:<br/>
 
 	python run.py --logpath "log-file-path" --poi "poi" 
 
