@@ -35,7 +35,7 @@ Dependent packages:
 ## Usage
 ### Input
 1. Log file path.
-2. Parameters including log file name and POI.
+2. POI.
 ### Command
 Directly execute the following command from the project home directory:<br/>
 
@@ -52,7 +52,7 @@ We use the following command to collect logs:<br/>
     sudo sysdig -p"%evt.num %evt.rawtime.s.%evt.rawtime.ns %evt.cpu %proc.name (%proc.pid) %evt.dir %evt.type cwd=%proc.cwd %evt.args latency=%evt.latency" evt.type!=switch > fileName.txt  
 
 Due to the limit of Github, we can't upload the collected extreme large log files.
-The folder example contains a small log and parameter file that can be used for demo.
+The folder example contains a small log that can be used for demo.
 For this case, the POI event is a suspicious network connection.
 For the DARPA Attack used in evaluation, here is the [github link](https://github.com/darpa-i2o/Transparent-Computing). 
 You can follow their instructions to download data.  
