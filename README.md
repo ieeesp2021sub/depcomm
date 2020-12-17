@@ -38,12 +38,15 @@ Dependent packages:
 2. Parameters including log file name and POI. They should be written to ``run.py`` in the project home directory ``depcomm_python``
 ### Command
 After configuring the input, directly execute the following command from the project home directory:<br/>
-	``python run.py`` 
+
+	python run.py 
 
 ### Data
 We adopt Sysdig to collect the system logs. This link shows how to install Sysdig: https://sysdig.com/opensource/sysdig/install/.   
 We use the following command to collect logs:<br/>
-``sudo sysdig -p"%evt.num %evt.rawtime.s.%evt.rawtime.ns %evt.cpu %proc.name (%proc.pid) %evt.dir %evt.type cwd=%proc.cwd %evt.args latency=%evt.latency" evt.type!=switch > fileName.txt``  
+
+    sudo sysdig -p"%evt.num %evt.rawtime.s.%evt.rawtime.ns %evt.cpu %proc.name (%proc.pid) %evt.dir %evt.type cwd=%proc.cwd %evt.args latency=%evt.latency" evt.type!=switch > fileName.txt  
+
 Due to the limit of Github, we can't upload the collected extreme large log files.
 The folder example contains a small log and parameter file that can be used for demo.
 For this case, the POI event is a suspicious network connection.
