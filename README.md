@@ -39,11 +39,11 @@ Dependent packages:
 ### Command
 Directly execute the following command from the project home directory:<br/>
 
-	python run.py --logname "log-file-path" --poi "poi" 
+	python run.py --logpath "log-file-path" --poi "poi" 
 
 For example, to run the unzipped example log file, it first should be put into ``input`` in the project home directory ``depcomm_python``, then execute the following command:
 
-    python run.py --logname "./input/leak_data.txt" --poi "10.10.103.10:38772->159.226.251.11:25"
+    python run.py --logpath "./input/leak_data.txt" --poi "10.10.103.10:38772->159.226.251.11:25"
 
 ### Data
 We adopt Sysdig to collect the system logs. This link shows how to install Sysdig: https://sysdig.com/opensource/sysdig/install/. Here is the user guide of Sysdig: https://github.com/draios/sysdig/wiki/Sysdig-User-Guide.  
