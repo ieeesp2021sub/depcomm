@@ -4,8 +4,7 @@ from Process import Process
 from Summary import Summary
 
 # Log File Parameters
-filename = sys.argv[1] 
-inpath = './input/'+filename
+inpath = sys.argv[1]
 outpath = './output/'
 
 # Log Parser Parameters
