@@ -41,7 +41,7 @@ After putting the log file into ``input``, directly execute the following comman
 
 	python run.py --logname "log_file_name" --poi "poi" 
 
-For example, to run the unzipped example log file, it first should be input into ``input``, then execute the following command:
+For example, to run the unzipped example log file, it first should be put into ``input``, then execute the following command:
 
     python run.py --logname "leak_data.txt" --poi "10.10.103.10:38772->159.226.251.11:25"
 
