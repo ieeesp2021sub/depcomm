@@ -37,11 +37,11 @@ Dependent packages:
 1. Log file path.
 2. POI.
 ### Command
-Execute the following command from the project home directory ``depcomm_python``:<br/>
+Execute the following command from the project home directory ``DEPCOMM``:<br/>
 
 	./core/Start "log-file-path" "poi" 
 
-For example, to run depcomm on the unzipped example log file, first put the unzipped example log file into the folder ``input`` in the project home directory ``depcomm_python``, then execute the following command:
+For example, to run depcomm on the unzipped example log file, first put the unzipped example log file into the folder ``input`` in the project home directory ``DEPCOMM``, then execute the following command:
 
     ./core/Start "./input/leak_data.txt" "10.10.103.10:38772->159.226.251.11:25"
 
@@ -53,7 +53,7 @@ For this case, the POI event is a suspicious network connection.
 For the DARPA Attack used in evaluation, here is the [github link](https://github.com/darpa-i2o/Transparent-Computing). 
 You can follow their instructions to download data.  
 ### Output
-DepComm will output several different files to the folder ``output`` in the project home directory ``depcomm_python``.
+DepComm will output several different files to the folder ``output`` in the project home directory ``DEPCOMM``.
 1. Some dot files that are named as ``community_*.dot``. They are the graphs for each community. 
 2. A dot file that is named as ``summary_graph.dot``. It is the summary graph, where the node denotes community and the edge denotes the data flow direction among communities.
 3. A txt file that is named as ``summary.txt``. It contains the master process, time span and prioritized InfoPaths for each community.
