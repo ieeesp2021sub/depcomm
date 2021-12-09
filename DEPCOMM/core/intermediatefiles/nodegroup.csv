@@ -1,0 +1,14 @@
+group1,1,p286,bash(24591),p286,vim(24694)
+group1,2,p286,bash(24591),p356,vim(24743)
+group1,3,p286,bash(24591),p344,vim(24737)
+group2,1,p306,bash(24591),p306,python2(24711)
+group2,2,p306,bash(24591),p346,python2(24738)
+group3,1,p972,bash(26068),p972,ls(26165)
+group3,2,p972,bash(26068),p994,ls(26180)
+group3,3,p972,bash(26068),p999,ls(26183)
+group4,1,p624,bash(25435),p624,ls(25515)
+group4,2,p624,bash(25435),p845,ls(25726)
+group5,1,p493,bash(24970),p493,ls(25076)
+group5,2,p493,bash(24970),p468,ls(25056)
+group6,1,f2394,,f2394,/home/lishuai/.viminfo.tmp
+group6,2,f2394,,f2378,/home/lishuai/.viminfo
