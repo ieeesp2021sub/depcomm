@@ -1,0 +1,26 @@
+digraph  {
+n14 [label="n14: 10.10.103.10:41222->10.10.27.163:80", shape=parallelogram];
+p1246 [label="p1246: timeout(13901)", shape=box];
+p1248 [label="p1248: abrt-cli(13902)", shape=box];
+p1309 [label="p1309: ls(13939)", shape=box];
+p1307 [label="p1307: wget(13938)", shape=box];
+p1313 [label="p1313: sh(13942)", shape=box];
+f95 [label="f95: /dev/null", shape=ellipse];
+p1218 [label="p1218: bash(13884)", shape=box];
+f3356 [label="f3356: /home/lishuai/steal.sh", shape=ellipse];
+n14 -> p1307  [key=0, label="n14->p1307: recvfrom"];
+n14 -> p1307  [key=1, label="n14->p1307: read"];
+p1246 -> p1248  [key=0, label="p1246->p1248: execve"];
+p1248 -> f95  [key=0, label="p1248->f95: write"];
+p1309 -> f95  [key=0, label="p1309->f95: write"];
+p1307 -> f3356  [key=0, label="p1307->f3356: write"];
+p1307 -> n14  [key=0, label="p1307->n14: write"];
+p1307 -> f95  [key=0, label="p1307->f95: write"];
+f95 -> p1218  [key=0, label="f95->p1218: read"];
+p1218 -> p1307  [key=0, label="p1218->p1307: execve"];
+p1218 -> p1309  [key=0, label="p1218->p1309: execve"];
+p1218 -> p1313  [key=0, label="p1218->p1313: execve"];
+p1218 -> p1246  [key=0, label="p1218->p1246: execve"];
+p1218 -> f95  [key=0, label="p1218->f95: write"];
+f3356 -> p1313  [key=0, label="f3356->p1313: read"];
+}

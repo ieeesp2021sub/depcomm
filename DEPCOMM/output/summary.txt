@@ -1,0 +1,84 @@
+1: 
+sh
+2019-10-25 15:35:55->2019-10-25 15:35:57
+sh(13942),tar(13943),gzip(13944),/home/lishuai/mycollect.tar.gz,gpg(13945),/home/lishuai/mycollect.tar.gz.gpg,mail(13947),/tmp/Rs0LAA9n,mail(13948),10.10.103.10:38772->159.226.251.11:25,0.832950398589697679076030805
+/home/lishuai/log_2/processing/result_file_python.csv,tar(13943),gzip(13944),/home/lishuai/mycollect.tar.gz,gpg(13945),/home/lishuai/mycollect.tar.gz.gpg,mail(13947),/tmp/Rs0LAA9n,mail(13948),10.10.103.10:38772->159.226.251.11:25,0.665663187719165180620636082
+/home/lishuai/log_4/result_file_java.csv,tar(13943),gzip(13944),/home/lishuai/mycollect.tar.gz,gpg(13945),/home/lishuai/mycollect.tar.gz.gpg,mail(13947),/tmp/Rs0LAA9n,mail(13948),10.10.103.10:38772->159.226.251.11:25,0.587036936581729316519375737
+/home/lishuai/analysis.txt,tar(13943),gzip(13944),/home/lishuai/mycollect.tar.gz,gpg(13945),/home/lishuai/mycollect.tar.gz.gpg,mail(13947),/tmp/Rs0LAA9n,mail(13948),10.10.103.10:38772->159.226.251.11:25,0.431259484358452937069012509
+10.10.103.10:46540->210.73.64.1:53,mail(13948),10.10.103.10:38772->159.226.251.11:25,0.394792564684008765148153866
+3: 
+bash
+2019-10-24 18:00:54->2019-10-24 18:02:30
+/dev/null,bash(25435),vim(25537),/home/lishuai/log_2/processing/processpy.py,python2(25724),/home/lishuai/log_2/processing/result_file_python.csv,vim(25735),/home/lishuai/.viminfo.tmp,0.3327925861563486638799064872
+/dev/null,bash(25435),vim(25537),/home/lishuai/log_2/processing/processpy.py,python2(25724),/home/lishuai/log_2/processing/result_file_python.csv,0.2700826162950296949047698496
+/dev/null,bash(25435),vim(25537),/home/lishuai/log_2/processing/processpy.py,0.2121311285531614011882613155
+/home/lishuai/log_2/processing/mainpy.py,vim(25525),/dev/null,bash(25435),vim(25537),/home/lishuai/log_2/processing/processpy.py,python2(25724),/home/lishuai/log_2/processing/result_file_python.csv,vim(25735),/home/lishuai/.viminfo.tmp,0.2045516762502008821858199505
+/home/lishuai/log_2/processing/processpy.py,vim(25537),/home/lishuai/.viminfo.tmp,vim(25735),/dev/null,0.1860416487907274990980033652
+/home/lishuai/log_2/processing/processpy.py,vim(25537),/dev/null,bash(25435),vim(25525),/home/lishuai/log_2/processing/mainpy.py,python2(25724),/home/lishuai/log_2/processing/result_file_python.csv,vim(25735),/home/lishuai/.viminfo.tmp,0.1860406115920179193420764496
+/home/lishuai/log_2/processing/mainpy.py,vim(25525),/home/lishuai/.viminfo.tmp,vim(25537),/dev/null,bash(25435),python2(25724),/home/lishuai/log_2/processing/result_file_python.csv,0.1418417063888819132106833128
+/dev/null,bash(25435),vim(25525),/home/lishuai/log_2/processing/mainpy.py,0.1282412789160534705790516559
+/home/lishuai/log_2/processing/processpy.py,vim(25537),/dev/null,bash(25435),vim(25525),/home/lishuai/log_2/processing/mainpy.py,python2(25724),/home/lishuai/log_2/processing/result_file_python.csv,0.1233306417306989503669398120
+/home/lishuai/log_2/processing/mainpy.py,vim(25525),/dev/null,bash(25435),vim(25537),/home/lishuai/log_2/processing/processpy.py,0.08389021864701361949417477877
+/home/lishuai/.viminfo.tmp,vim(25525),/dev/null,bash(25435),vim(25537),/home/lishuai/log_2/processing/processpy.py,0.08375294861695942556883466717
+/home/lishuai/log_2/processing/mainpy.py,python2(25724),/home/lishuai/log_2/processing/result_file_python.csv,vim(25735),/dev/null,0.06529674315792959906968322453
+/home/lishuai/log_1/feature_output.csv,python2(25724),/home/lishuai/log_2/processing/result_file_python.csv,vim(25735),/dev/null,0.06529287755657812960931681307
+/home/lishuai/log_1/feature_output.csv,python2(25724),/home/lishuai/log_2/processing/result_file_python.csv,vim(25735),/home/lishuai/.viminfo.tmp,0.06529184035786854985338989747
+/home/lishuai/.viminfo.tmp,vim(25537),/dev/null,bash(25435),vim(25525),/home/lishuai/log_2/processing/mainpy.py,python2(25724),/home/lishuai/log_2/processing/result_file_python.csv,0.05780627389410101107489074097
+/home/lishuai/log_2/processing/result_file_python.csv,vim(25735),/dev/null,0.03279754596362678795815068195
+/home/lishuai/log_2/processing/result_file_python.csv,vim(25735),/home/lishuai/.viminfo.tmp,0.03279650876491720820222376636
+/home/lishuai/log_1/feature_output.csv,python2(25724),/home/lishuai/log_2/processing/result_file_python.csv,0.002581870496549580878253259820
+/home/lishuai/.viminfo.tmp,vim(25537),/dev/null,2.805443168951166114912112036E-7
+2: 
+bash
+2019-10-25 15:35:24->2019-10-25 15:35:56
+/dev/null,bash(13884),wget(13938),/home/lishuai/steal.sh,sh(13942),0.497452550430434309767769671
+10.10.103.10:41222->10.10.27.163:80,wget(13938),/dev/null,bash(13884),sh(13942),0.3443911741392209752206931377
+10.10.103.10:41222->10.10.27.163:80,wget(13938),/dev/null,0.00003707332498606378593977887933
+5: 
+bash
+2019-10-24 18:12:33->2019-10-24 18:13:35
+/dev/null,bash(26451),vim(26561),/home/lishuai/.viminfo.tmp,0.2131449239197747356397612881
+/dev/null,bash(26451),vim(26561),/home/lishuai/analysis.txt,0.2129640861286570079747607889
+/home/lishuai/.viminfo.tmp,vim(26561),/dev/null,4.301734789387447531719727907E-7
+4: 
+bash
+2019-10-24 18:06:28->2019-10-24 18:07:47
+/dev/null,bash(26068),scp(26177),/home/lishuai/log_4/javatest.jar,java(26186),/home/lishuai/log_4/result_file_java.csv,0.3182408666767322262410878744
+10.10.103.10:33410->10.10.103.11:22,ssh(26178),scp(26177),/dev/null,bash(26068),wget(26182),/home/lishuai/log_4/featurejar.csv,java(26186),/home/lishuai/log_4/result_file_java.csv,0.1756874905301742107746691280
+/dev/tty,ssh(26178),scp(26177),/dev/null,bash(26068),wget(26182),/home/lishuai/log_4/featurejar.csv,java(26186),/home/lishuai/log_4/result_file_java.csv,0.1753542598940461611070417091
+/dev/null,bash(26068),scp(26177),ssh(26178),/dev/tty,0.1428866002638024615061414689
+10.10.103.10:38428->10.10.27.163:80,wget(26182),/dev/null,bash(26068),scp(26177),/home/lishuai/log_4/javatest.jar,java(26186),/home/lishuai/log_4/result_file_java.csv,0.06984433845751172969046531307
+10.10.103.10:33410->10.10.103.11:22,ssh(26178),scp(26177),/dev/null,0.01319706550188778053157029233
+/dev/tty,ssh(26178),scp(26177),/dev/null,0.01286383486575973086394287338
+10.10.103.10:33410->10.10.103.11:22,ssh(26178),/dev/tty,0.0003332241172444460397227225200
+10.10.103.10:38428->10.10.27.163:80,wget(26182),/dev/null,0.0001692795941772437689170364236
+7: 
+bash
+2019-10-24 17:54:00->2019-10-24 17:55:15
+/dev/null,bash(24970),wget(25055),/home/lishuai/processing.tar.gz,gzip(25064),tar(25063),/home/lishuai/log_2/processing/mainpy.py,vim(25085),/home/lishuai/.viminfo.tmp,0.2881851184640878281795624018
+10.10.103.10:38380->10.10.27.163:80,wget(25055),/home/lishuai/processing.tar.gz,gzip(25064),tar(25063),/home/lishuai/log_2/processing/mainpy.py,vim(25085),/home/lishuai/.viminfo.tmp,vim(25094),/dev/null,0.2732550565100114494415388299
+10.10.103.10:38380->10.10.27.163:80,wget(25055),/home/lishuai/processing.tar.gz,gzip(25064),tar(25063),/home/lishuai/log_2/processing/mainpy.py,vim(25085),/dev/null,bash(24970),vim(25094),/home/lishuai/.viminfo.tmp,0.2732540266963221451388709967
+/dev/null,bash(24970),wget(25055),/home/lishuai/processing.tar.gz,gzip(25064),tar(25063),/home/lishuai/log_2/processing/processpy.py,0.1719082369094765598974048320
+/dev/null,bash(24970),wget(25055),/home/lishuai/processing.tar.gz,gzip(25064),tar(25063),/home/lishuai/log_2/processing/mainpy.py,0.1719074903238486863480683315
+10.10.103.10:38380->10.10.27.163:80,wget(25055),/dev/null,bash(24970),tar(25063),/home/lishuai/log_2/processing/processpy.py,0.1124286477333421356785526582
+10.10.103.10:38380->10.10.27.163:80,wget(25055),/dev/null,bash(24970),tar(25063),/home/lishuai/log_2/processing/mainpy.py,0.1124279011477142621292161577
+/home/lishuai/log_2/processing/mainpy.py,vim(25085),/home/lishuai/.viminfo.tmp,vim(25094),/dev/null,0.07235792627225220708022856793
+/home/lishuai/log_2/processing/mainpy.py,vim(25085),/dev/null,bash(24970),wget(25055),/home/lishuai/processing.tar.gz,gzip(25064),tar(25063),/home/lishuai/log_2/processing/processpy.py,vim(25094),/home/lishuai/.viminfo.tmp,0.07235689645856290277756073477
+/home/lishuai/log_2/processing/processpy.py,vim(25094),/dev/null,0.02387260120455237513037285780
+/home/lishuai/log_2/processing/processpy.py,vim(25094),/home/lishuai/.viminfo.tmp,0.02387157139086307082770502462
+/home/lishuai/.viminfo.tmp,vim(25085),/dev/null,7.47065832242818606719645888E-7
+6: 
+bash
+2019-10-24 17:43:29->2019-10-24 17:47:38
+/dev/null,bash(24591),scp(24677),/home/lishuai/feature.csv,mv(24684),/home/lishuai/log_1/feature.csv,python2(24747),/home/lishuai/log_1/feature_output.csv,0.3331455626736762135072294948
+10.10.103.10:33342->10.10.103.11:22,ssh(24678),scp(24677),/dev/null,bash(24591),vim(24694),/home/lishuai/log_1/log1python.py,python2(24747),/home/lishuai/log_1/feature_output.csv,0.3022176664398905856821037252
+/dev/tty,ssh(24678),scp(24677),/dev/null,bash(24591),vim(24694),/home/lishuai/log_1/log1python.py,python2(24747),/home/lishuai/log_1/feature_output.csv,0.3021159697792737733140406486
+/dev/null,bash(24591),vim(24694),/home/lishuai/.viminfo.tmp,0.2308242370620598723651298589
+10.10.103.10:33342->10.10.103.11:22,ssh(24678),scp(24677),/dev/null,bash(24591),vim(24694),/home/lishuai/.viminfo.tmp,0.1998963408282742445400040892
+/dev/tty,ssh(24678),scp(24677),/dev/null,bash(24591),vim(24694),/home/lishuai/.viminfo.tmp,0.1997946441676574321719410126
+/home/lishuai/.viminfo.tmp,vim(24694),/dev/null,bash(24591),scp(24677),/home/lishuai/feature.csv,mv(24684),/home/lishuai/log_1/feature.csv,python2(24747),/home/lishuai/log_1/feature_output.csv,0.1023210915155866068422082475
+/dev/null,bash(24591),scp(24677),ssh(24678),/dev/tty,0.03591246630953843650127364477
+10.10.103.10:33342->10.10.103.11:22,ssh(24678),scp(24677),/dev/null,0.00570420769310845323906179554
+/dev/tty,ssh(24678),scp(24677),/dev/null,0.005602511032491640870998718943
+10.10.103.10:33342->10.10.103.11:22,ssh(24678),/dev/tty,0.00498457007575280867614787508
+/home/lishuai/.viminfo.tmp,vim(24694),/dev/null,1.032997180616444459320530461E-7

@@ -1,0 +1,37 @@
+digraph  {
+f3372 [label="f3372: /tmp/Rsp0QEcc", shape=ellipse];
+f3373 [label="f3373: /tmp/Rs0LAA9n", shape=ellipse];
+n16 [label="n16: 10.10.103.10:46540->210.73.64.1:53", shape=parallelogram];
+n17 [label="n17: 10.10.103.10:38772->159.226.251.11:25", shape=parallelogram];
+p1317 [label="p1317: gzip(13944)", shape=box];
+f3368 [label="f3368: /home/lishuai/mycollect.tar.gz.gpg", shape=ellipse];
+p1323 [label="p1323: mail(13948)", shape=box];
+p1322 [label="p1322: mail(13947)", shape=box];
+f3358 [label="f3358: /home/lishuai/mycollect.tar.gz", shape=ellipse];
+f3052 [label="f3052: /home/lishuai/log_2/processing/result_file_python.csv", shape=ellipse];
+p1315 [label="p1315: tar(13943)", shape=box];
+p1319 [label="p1319: gpg(13945)", shape=box];
+f3136 [label="f3136: /home/lishuai/log_4/result_file_java.csv", shape=ellipse];
+f3201 [label="f3201: /home/lishuai/analysis.txt", shape=ellipse];
+p1313 [label="p1313: sh(13942)", shape=box];
+f3372 -> p1322  [key=0, label="f3372->p1322: read"];
+f3373 -> p1323  [key=0, label="f3373->p1323: read"];
+n16 -> p1323  [key=0, label="n16->p1323: recvfrom"];
+n17 -> p1323  [key=0, label="n17->p1323: read"];
+p1317 -> f3358  [key=0, label="p1317->f3358: write"];
+p1317 -> p1315  [key=0, label="p1317->p1315: execve"];
+f3368 -> p1322  [key=0, label="f3368->p1322: read"];
+p1323 -> n17  [key=0, label="p1323->n17: write"];
+p1322 -> p1323  [key=0, label="p1322->p1323: clone"];
+p1322 -> f3372  [key=0, label="p1322->f3372: write"];
+p1322 -> f3373  [key=0, label="p1322->f3373: write"];
+f3358 -> p1319  [key=0, label="f3358->p1319: read"];
+f3052 -> p1315  [key=0, label="f3052->p1315: read"];
+p1315 -> p1317  [key=0, label="p1315->p1317: execve"];
+p1319 -> f3368  [key=0, label="p1319->f3368: write"];
+f3136 -> p1315  [key=0, label="f3136->p1315: read"];
+f3201 -> p1315  [key=0, label="f3201->p1315: read"];
+p1313 -> p1322  [key=0, label="p1313->p1322: execve"];
+p1313 -> p1315  [key=0, label="p1313->p1315: execve"];
+p1313 -> p1319  [key=0, label="p1313->p1319: execve"];
+}

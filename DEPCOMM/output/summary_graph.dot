@@ -1,0 +1,38 @@
+digraph  {
+1 [label=C1, shape=box];
+3 [label=C3, shape=box];
+2 [label=C2, shape=box];
+5 [label=C5, shape=box];
+4 [label=C4, shape=box];
+7 [label=C7, shape=box];
+6 [label=C6, shape=box];
+3 -> 1  [key=0, label="/home/lishuai/log_2/processing/result_file_python.csv"];
+3 -> 2  [key=0, label="/dev/null"];
+3 -> 5  [key=0, label="/home/lishuai/.viminfo.tmp"];
+3 -> 5  [key=1, label="/dev/null"];
+3 -> 4  [key=0, label="/dev/null"];
+2 -> 1  [key=0, label="sh(13942)"];
+5 -> 1  [key=0, label="/home/lishuai/analysis.txt"];
+5 -> 2  [key=0, label="/dev/null"];
+4 -> 1  [key=0, label="/home/lishuai/log_4/result_file_java.csv"];
+4 -> 2  [key=0, label="/dev/null"];
+4 -> 5  [key=0, label="/dev/null"];
+7 -> 3  [key=0, label="/home/lishuai/.viminfo.tmp"];
+7 -> 3  [key=1, label="/home/lishuai/log_2/processing/mainpy.py"];
+7 -> 3  [key=2, label="/home/lishuai/log_2/processing/processpy.py"];
+7 -> 3  [key=3, label="/dev/null"];
+7 -> 2  [key=0, label="/dev/null"];
+7 -> 5  [key=0, label="/home/lishuai/.viminfo.tmp"];
+7 -> 5  [key=1, label="/dev/null"];
+7 -> 4  [key=0, label="/dev/null"];
+6 -> 3  [key=0, label="/home/lishuai/.viminfo.tmp"];
+6 -> 3  [key=1, label="/home/lishuai/log_1/feature_output.csv"];
+6 -> 3  [key=2, label="/dev/null"];
+6 -> 2  [key=0, label="/dev/null"];
+6 -> 5  [key=0, label="/home/lishuai/.viminfo.tmp"];
+6 -> 5  [key=1, label="/dev/null"];
+6 -> 4  [key=0, label="/dev/tty"];
+6 -> 4  [key=1, label="/dev/null"];
+6 -> 7  [key=0, label="/home/lishuai/.viminfo.tmp"];
+6 -> 7  [key=1, label="/dev/null"];
+}

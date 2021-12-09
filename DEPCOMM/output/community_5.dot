@@ -1,0 +1,26 @@
+digraph  {
+f3201 [label="f3201: /home/lishuai/analysis.txt", shape=ellipse];
+p1065 [label="p1065: bash(26451)", shape=box];
+f2394 [label="f2394: /home/lishuai/.viminfo.tmp", shape=ellipse];
+p1096 [label="p1096: timeout(26473)", shape=box];
+p1163 [label="p1163: ls(26536)", shape=box];
+f95 [label="f95: /dev/null", shape=ellipse];
+p1194 [label="p1194: vim(26561)", shape=box];
+p1098 [label="p1098: abrt-cli(26474)", shape=box];
+f3202 [label="f3202: /tmp/sh-thd-1571886255", shape=ellipse];
+p1065 -> p1096  [key=0, label="p1065->p1096: execve"];
+p1065 -> p1194  [key=0, label="p1065->p1194: execve"];
+p1065 -> p1163  [key=0, label="p1065->p1163: execve"];
+p1065 -> f3202  [key=0, label="p1065->f3202: write"];
+p1065 -> f95  [key=0, label="p1065->f95: write"];
+f2394 -> p1194  [key=0, label="f2394->p1194: rename"];
+p1096 -> p1098  [key=0, label="p1096->p1098: execve"];
+p1163 -> f95  [key=0, label="p1163->f95: write"];
+f95 -> p1194  [key=0, label="f95->p1194: read"];
+f95 -> p1065  [key=0, label="f95->p1065: read"];
+p1194 -> f2394  [key=0, label="p1194->f2394: write"];
+p1194 -> f3201  [key=0, label="p1194->f3201: write"];
+p1194 -> f95  [key=0, label="p1194->f95: write"];
+p1098 -> f95  [key=0, label="p1098->f95: write"];
+f3202 -> p1065  [key=0, label="f3202->p1065: read"];
+}
