@@ -39,17 +39,13 @@ Dependent packages:
 ### Command
 Execute the following command from the project home directory ``depcomm_python``:<br/>
 
-	python run.py --logpath "log-file-path" --poi "poi" 
+	./core/Start "log-file-path" "poi" 
 
 For example, to run depcomm on the unzipped example log file, first put the unzipped example log file into the folder ``input`` in the project home directory ``depcomm_python``, then execute the following command:
 
-    python run.py --logpath "./input/leak_data.txt" --poi "10.10.103.10:38772->159.226.251.11:25"
+    ./core/Start "./input/leak_data.txt" "10.10.103.10:38772->159.226.251.11:25"
 
 ### Data
-We adopt Sysdig to collect the system logs. This link shows how to install Sysdig: https://sysdig.com/opensource/sysdig/install/. Here is the user guide of Sysdig: https://github.com/draios/sysdig/wiki/Sysdig-User-Guide.  
-We use the following command to collect logs:<br/>
-
-    sudo sysdig -p"%evt.num %evt.rawtime.s.%evt.rawtime.ns %evt.cpu %proc.name (%proc.pid) %evt.dir %evt.type cwd=%proc.cwd %evt.args latency=%evt.latency" evt.type!=switch > fileName.txt  
 
 Due to the limit of Github, we can't upload the collected extreme large log files.
 The folder example contains a small log that can be used for demo.
